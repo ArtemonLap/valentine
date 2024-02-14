@@ -1,0 +1,127 @@
+.ace {
+  z-index: 1; 
+}
+.u-section-1 {
+  background-image: url("images/db324ba5-fbc9-9b39-f4f1-738e705294ba.jpg");
+  background-position: 50% 50%;
+  height: 1018px;
+  object-fit: fill;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 808px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 2.875rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 26px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  transition-duration: 0.25s;
+  --radius: 50px;
+  border-style: solid;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  background-image: none;
+  margin: 80px auto 0 264px;
+}
+
+.u-section-1 .u-btn-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  transition-duration: 0.25s;
+  --radius: 50px;
+  border-style: solid;
+  background-image: none;
+  margin: -46px 279px 0 auto;
+}
+
+.u-section-1 .u-video-1 {
+  width: 305px;
+  height: 396px;
+  filter: brightness(0.9);
+  margin: 46px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 64px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    margin-right: 79px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 738px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}
+
+.u-section-1 .u-btn-1,
+.u-section-1 .u-btn-1:before,
+.u-section-1 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-btn-2,
+.u-section-1 .u-btn-2:before,
+.u-section-1 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-container-layout:hover .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
